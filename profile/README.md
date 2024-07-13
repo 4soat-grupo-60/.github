@@ -96,3 +96,6 @@ kubectl exec -it --namespace=totem POD_POSTGRES --  psql -U totem -d totem -f /t
 
 <!--- ![Diagrama Arquitetura on-premises](https://github.com/adrianolima/tech_challenge_4soat_g60/blob/main/docs/on-premises/diagrama_onpremises.png) -->
 
+## RIPD
+[RIPD](https://1drv.ms/w/c/2212ca1d71ab54c7/Ee8_H5k-tp9BkqzgWAq3uuUB4n1KSL7ab9D5Kk5LjMKqBg?e=3hskNa)
+
