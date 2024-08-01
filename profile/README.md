@@ -4,7 +4,8 @@ API criada para o tech challenge da Pós Tech FIAP do curso de Arquitetura de So
 
 ## Iniciando projeto
 
-### Serviço de produtos git@github.com:4soat-grupo-60/produtos-ms.git
+### [Micro serviço de produtos](https://github.com/4soat-grupo-60/produtos-ms)
+
 
 Para iniciar esse projeto, após clonar o serviço rode no terminal:
 
@@ -26,7 +27,7 @@ kubectl get pods --namespace=totem
 
 Após todos os pods estarem com o status "Running" seguir para subir o próximo serviço
 
-### Serviço de pedidos git@github.com:4soat-grupo-60/pedido-ms.git
+### [Micro serviço de pedidos](https://github.com/4soat-grupo-60/pedido-ms)
 
 Para iniciar esse projeto, após clonar o serviço rode no terminal:
 
@@ -48,7 +49,7 @@ kubectl get pods --namespace=totem
 
 Após todos os pods estarem com o status "Running" seguir para subir o próximo serviço
 
-### Serviço de pagamento git@github.com:4soat-grupo-60/payment-ms.git
+### [Micro serviço de pagamentos](https://github.com/4soat-grupo-60/payment-ms)
 
 Para iniciar esse projeto, após clonar o serviço rode no terminal:
 
