@@ -4,7 +4,9 @@ API criada para o tech challenge da Pós Tech FIAP do curso de Arquitetura de So
 
 ## Iniciando projeto
 
-Para iniciar esse projeto, após clonar rode no terminal:
+### Serviço de produtos git@github.com:4soat-grupo-60/produtos-ms.git
+
+Para iniciar esse projeto, após clonar o serviço rode no terminal:
 
 ```bash
   cd k8s
@@ -22,32 +24,48 @@ Acompanhar o status da criação dos PODS
 kubectl get pods --namespace=totem
 ```
 
-Após todos os pods estarem com o status "Running" pegar qualquer pod da api e executar o seguinte comando para gerar as tabelas da aplicação:
+Após todos os pods estarem com o status "Running" seguir para subir o próximo serviço
+
+### Serviço de pedidos git@github.com:4soat-grupo-60/pedido-ms.git
+
+Para iniciar esse projeto, após clonar o serviço rode no terminal:
 
 ```bash
-  kubectl exec -it --namespace=totem POD_API --  sh /var/bin/migration.sh
+  cd k8s
 ```
 
-Após finalizar a criação das tabelas podemos fazer o carregamento inicial da base de dados.
+dentro da pasta /k8s rode no terminal:
 
-#### OBS: Este passo é opcional
+```bash
+  kubectl apply -f .
+```
 
-Pegar o pod do postgres
+Acompanhar o status da criação dos PODS
 
 ```bash
 kubectl get pods --namespace=totem
 ```
 
-Copiar arquivo de seed para o pod
+Após todos os pods estarem com o status "Running" seguir para subir o próximo serviço
+
+### Serviço de pagamento git@github.com:4soat-grupo-60/payment-ms.git
+
+Para iniciar esse projeto, após clonar o serviço rode no terminal:
 
 ```bash
-kubectl --namespace=totem cp seeder.sql POD_POSTGRES:/tmp
+  cd k8s
 ```
 
-Executar o seed
+dentro da pasta /k8s rode no terminal:
 
 ```bash
-kubectl exec -it --namespace=totem POD_POSTGRES --  psql -U totem -d totem -f /tmp/seeder.sql
+  kubectl apply -f .
+```
+
+Acompanhar o status da criação dos PODS
+
+```bash
+kubectl get pods --namespace=totem
 ```
 
 ## Funcionalidades
