@@ -1,6 +1,9 @@
-# Título do Projeto
+# Totem - Sistema de pedidos
 
 API criada para o tech challenge da Pós Tech FIAP do curso de Arquitetura de Software turma 4SOAT - G60
+
+## Arquitetura
+![Arquitetura do Sistema](img/arch.png)
 
 ## Iniciando projeto
 
