@@ -75,10 +75,10 @@ kubectl get pods --namespace=totem
 
 ### [Lambda de autenticação / registro / remoção](https://github.com/4soat-grupo-60/totem-lambda)
 
-SAGA
+## SAGA
 Tipo implementado: Coreografia
 
-Motivação
+### Motivação
 O contexto da aplicação é bem simples tendo apenas 3 filas, além disso os serviços possuem todo o contexto para realizar o tratamento completo dos eventos, sem a necessidade e um orquestrador, o que aumentaria a complexidade da solução. E conforme mencionado nas aulas quando o contexto da aplicação é pequeno o indicado é utilizar o padrão SAGA coreografado.
 
 
