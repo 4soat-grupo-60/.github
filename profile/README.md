@@ -72,6 +72,10 @@ Acompanhar o status da criação dos PODS
 kubectl get pods --namespace=totem
 ```
 
+
+### [Lambda de autenticação / registro / remoção](https://github.com/4soat-grupo-60/totem-lambda)
+
+
 ## Análise OWASP
 
 [Micro serviço de produtos](https://4soat-grupo-60.github.io/produtos-ms/scanner/produtos-report-v2-2024-07-31.html)
