@@ -3,12 +3,18 @@
 API criada para o tech challenge da Pós Tech FIAP do curso de Arquitetura de Software turma 4SOAT - G60
 
 ## Arquitetura
+
 ![Arquitetura do Sistema](img/arch.png)
+
+![Diagrama do Sistema fluxo com identificação](img/auth_flow.drawio.png)
+
+![Diagrama do Sistema fluxo sem identificação](img/unauth_flow.png)
+
+![Diagrama do Sistema fluxo de remoção de usuário](img/delete.png)
 
 ## Iniciando projeto
 
 ### [Micro serviço de produtos](https://github.com/4soat-grupo-60/produtos-ms)
-
 
 Para iniciar esse projeto, após clonar o serviço rode no terminal:
 
@@ -72,15 +78,17 @@ Acompanhar o status da criação dos PODS
 kubectl get pods --namespace=totem
 ```
 
-
 ### [Lambda de autenticação / registro / remoção](https://github.com/4soat-grupo-60/totem-lambda)
 
 ## SAGA
+
 Tipo implementado: Coreografia
 
-### Motivação
-O contexto da aplicação é bem simples tendo apenas 3 filas, além disso os serviços possuem todo o contexto para realizar o tratamento completo dos eventos, sem a necessidade e um orquestrador, o que aumentaria a complexidade da solução. E conforme mencionado nas aulas quando o contexto da aplicação é pequeno o indicado é utilizar o padrão SAGA coreografado.
+![SAGA](img/SAGA.png)
 
+### Motivação
+
+O contexto da aplicação é bem simples tendo apenas 3 filas, além disso os serviços possuem todo o contexto para realizar o tratamento completo dos eventos, sem a necessidade e um orquestrador, o que aumentaria a complexidade da solução. E conforme mencionado nas aulas quando o contexto da aplicação é pequeno o indicado é utilizar o padrão SAGA coreografado.
 
 ## Análise OWASP
 
@@ -128,10 +136,10 @@ O contexto da aplicação é bem simples tendo apenas 3 filas, além disso os se
 
 [Storytelling](https://docs.google.com/document/d/1UKt6QM1xacBQHZGV9gy3_L3Li5LpHbLUMzv4UTCF_Nc/edit)
 
-## Diagrama Arquitetura on-premises
+## Draw.io
 
-<!--- ![Diagrama Arquitetura on-premises](https://github.com/adrianolima/tech_challenge_4soat_g60/blob/main/docs/on-premises/diagrama_onpremises.png) -->
+[Draw.io](https://drive.google.com/file/d/1qGCcjipku3gjhIKb2mjUqF61MDF-eXYg/view?usp=sharing)
 
 ## RIPD
-[RIPD](https://1drv.ms/w/c/2212ca1d71ab54c7/Ee8_H5k-tp9BkqzgWAq3uuUB4n1KSL7ab9D5Kk5LjMKqBg?e=3hskNa)
 
+[RIPD](https://1drv.ms/w/c/2212ca1d71ab54c7/Ee8_H5k-tp9BkqzgWAq3uuUB4n1KSL7ab9D5Kk5LjMKqBg?e=3hskNa)
