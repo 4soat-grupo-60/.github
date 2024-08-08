@@ -91,7 +91,7 @@ Tipo implementado: Coreografia
 O contexto da aplicação é bem simples tendo apenas 3 filas, além disso os serviços possuem todo o contexto para realizar o tratamento completo dos eventos, sem a necessidade e um orquestrador, o que aumentaria a complexidade da solução. E conforme mencionado nas aulas quando o contexto da aplicação é pequeno o indicado é utilizar o padrão SAGA coreografado.
 
 ## Análise OWASP
-Obs: Não foi necessário realizar nenhum ajuste nos serviços porque não houve nenhum apontamento "High"
+>Não foi necessário realizar nenhum ajuste nos serviços porque não houve nenhum apontamento "High"
 
 #### Listar/exibir cardápio
 [Micro serviço de produtos](https://4soat-grupo-60.github.io/produtos-ms/scanner/produtos-report-v2-2024-07-31.html)
