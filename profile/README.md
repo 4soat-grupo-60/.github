@@ -92,7 +92,16 @@ O contexto da aplicação é bem simples tendo apenas 3 filas, além disso os se
 
 ## Análise OWASP
 
+#### Listar/exibir cardápio
 [Micro serviço de produtos](https://4soat-grupo-60.github.io/produtos-ms/scanner/produtos-report-v2-2024-07-31.html)
+
+#### Realização pedido (Checkout)
+[Micro serviço de pedidos](https://4soat-grupo-60.github.io/pedido-ms/scanner/order-request-2024-08-08.html)
+
+#### Geração do Pagamento
+[Micro serviço de pagamentos](https://4soat-grupo-60.github.io/payment-ms/scanner/payment-create.html)
+#### Confirmação do Pagamento (Webhook)
+[Micro serviço de pagamentos](https://4soat-grupo-60.github.io/payment-ms/scanner/payment-confirm.html)
 
 ## Funcionalidades
 
@@ -126,7 +135,7 @@ O contexto da aplicação é bem simples tendo apenas 3 filas, além disso os se
 
 ## Postman
 
-[Postman](https://elements.getpostman.com/redirect?entityId=26331161-07de13c2-3c77-4e02-851d-1d35a173d086&entityType=collection)
+[Postman](https://www.postman.com/lively-escape-385028/workspace/4soat-g60-workspace/request/18248829-e30ebf44-6541-437c-907d-c26be960cd58?tab=body)
 
 ## Miro
 
