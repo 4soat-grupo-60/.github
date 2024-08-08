@@ -133,6 +133,10 @@ O contexto da aplicação é bem simples tendo apenas 3 filas, além disso os se
 - Apagar produtos
 - Processar pagamento
 
+## Vídeo com explicação da arquitetura e projeto rodando
+
+[Youtube](https://www.youtube.com/watch?v=ndtzjphyrJ0)
+
 ## Postman
 
 [Postman](https://www.postman.com/lively-escape-385028/workspace/4soat-g60-workspace/request/18248829-e30ebf44-6541-437c-907d-c26be960cd58?tab=body)
